@@ -71,9 +71,6 @@ class SearchBar extends Component {
                 e.preventDefault();
             }
         }
-        // else {
-        //     this.handleHover(e);
-        // }
     }
     }
 

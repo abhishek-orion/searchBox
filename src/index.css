@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.search{
+  width: 275px;
+  height: 25px;
+  text-overflow: ellipsis;
+  -ms-overflow-style: ellipsis;
+  border-radius: 5px;
+}
+
+li::before {
+  content: "• ";
+  color: blue; 
+}
+
+.item-found {
+    border-top: 0.5px solid grey;
+    border-bottom: 0.5px solid grey;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list{
+  box-shadow: 0 0 10px darkgrey;
+  width: 275px;
+  height:auto;
+  max-height: 300px;
+  overflow-y: scroll;
+  border: 1px solid grey;
+}
+.noUsers {
+  text-align: center;
+  width: 275px;
+  height: 50px;
+  border: 1px solid grey;
+  padding-top: 30px;
+}
+.name{
+  font-size: 14px;
+  font-style: italic;
+  color: grey;
+}
+
+.address {
+  font-size: 14px;
+  color: grey;
+}
+
+.listCard {
+  border: 1px solid grey;
+  padding: 10px;
+}
+
+.selected
+  {background-color: #fdffdb;}

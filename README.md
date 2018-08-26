@@ -11,8 +11,12 @@ How to Run
 
 Points to remember:
 
-1. The scroll is not visible in the list by default, but appears as soon as you start scrolling the list.
-2. The text box should be in focus if you are using the arrow keys to navigate through the list.
+1. The scroll is not visible in the list by default (in Mac), but appears as soon as you start scrolling the list.
+2. The searching algorithm is implemented in Utils folder.
+3. The text box should be in focus if you are using the arrow keys to navigate through the list.
+4. "ScrollIntoViewIfNeeded" function is not supported in Internet Explorer.
+5. Planned of using Axios async api call for getting the sample data, but there is an error in the data provided in the link given above.
+6. Getting the data from actions and reducers using redux.
 
 Developed By:
 Abhishek Gupta

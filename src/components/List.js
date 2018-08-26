@@ -7,10 +7,10 @@ export default class List extends Component {
     }
 
     render(){
-        const {users,handleKeyDown,handleHover,input,selectedItem} = this.props;
+        const {users,handleKeyDown,handleHover,input,selectedItem,pointerEvent} = this.props;
         if(users!=undefined && users.length!=0){
         return(
-            <div className="list">
+            <div className={pointerEvent == "auto"? "list" : "list noPointerEvents"}>
             {users.map(function(user, index) {
                 return (<ListCard
                  key={user.index}

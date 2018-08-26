@@ -3,10 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@material-ui/core": "^1.5.1",
     "axios": "^0.18.0",
-    "fuzzy-search": "^2.1.0",
-    "lodash": "^4.17.10",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-redux": "^5.0.7",

@@ -9,7 +9,8 @@ export default function filterUser(users, text) {
                         user.match = user[prop];
                         return false;
                     }
-                });     
+                });
+                break;     
             } else if(prop !== 'match'){
                 if(user[prop].toLowerCase().indexOf(text.toLowerCase()) >=0){
                     filteredArray.push(user);

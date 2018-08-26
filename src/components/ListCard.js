@@ -3,7 +3,6 @@ import React from 'react';
 export default function Component (props) {
     const {user, input, index, selectedItem, handleKeyDown, handleHover} = props;
 
-
     function highlightText(str, input) {
         let index = str.toLowerCase().indexOf(input.toLowerCase());
         if(typeof str !== "object" && index>=0) {
@@ -20,7 +19,7 @@ export default function Component (props) {
             <div className={index == selectedItem? "listCard selected": "listCard"}
             id ={index}
             onKeyDown={handleKeyDown}
-            onMouseOver={handleHover}
+            onMouseEnter={handleHover}
             >
             <strong>{highlightText(user.id, input)}</strong><br/>
             <span className="name">{highlightText(user.name, input)}</span><br/>
